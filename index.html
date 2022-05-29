@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="icon" href="./img/icon-title.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <title>Order KFS by duchau</title>
+</head>
+<body>
+    
+    <div class="order">
+        <header class="order__header">
+            <img class="logo" src="./img/logo.png" alt="logo">
+        </header>
+        <div class="order__body">
+            <div class="body__title">
+                Your order from KFC
+            </div>
+            <div class="empty__order">
+                <div><i class="fas fa-tired"></i></div>
+            </div>
+            <ul class="body__items">
+                <!-- <li class="body__item">
+                    <span class="body__name">British Pizza | 001</span>
+                    <div class="body__quanlity">
+                        <button class="logo__dec"><i class="fas fa-minus"></i></button>
+                        <input class="value__quanlity" type="text" value="1"/>
+                        <button class="logo__inc"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="price">
+                        <span class="cost">$7.99</span>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+
+                <li class="body__item">
+                    <span class="body__name">British Pizza | 002</span>
+                    <div class="body__quanlity">
+                        <button class="logo__dec"><i class="fas fa-minus"></i></button>
+                        <input class="value__quanlity" type="text" value="1"/>
+                        <button class="logo__inc"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="price">
+                        <span class="cost">$8.99</span>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+
+                <li class="body__item">
+                    <span class="body__name">British Pizza | Large</span>
+                    <div class="body__quanlity">
+                        <button class="logo__dec"><i class="fas fa-minus"></i></button>
+                        <input class="value__quanlity" type="text" value="1"/>
+                        <button class="logo__inc"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div class="price">
+                        <span class="cost">$9.99</span>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                    </div>
+                </li> -->
+
+            </ul>
+
+            <button type="button" class="add__food">ADD FOOD</button>
+
+            <div class="order__total">
+                <div class="sub__total">
+                    <span>Subtotal</span>
+                    <div class="footer__price order__total--price">$15.98</div>
+                </div>
+                <div class="shipping">
+                    <span>Shipping</span>
+                    <div class="footer__price shipping--price">$2</div>
+                </div>
+                <div class="total">
+                    <span>Total (TVA incl)</span>
+                    <div class="footer__price total--price">$17.98</div>
+                </div>
+            </div>
+
+            <div class="checkout">
+                <div class="checkout__text">
+                    Checkout
+                </div>
+                <i class="checkout__icon far fa-check-circle"></i>
+                <!-- <i class="checkout__icon fas fa-check-circle"></i> -->
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="menu__food-overlay">
+        <div class="menu__food">
+            <div class="menu__header">
+                <div class="menu__header--bg"></div>
+                <i class="icon-close-modal fas fa-times"></i>
+            </div>
+
+            <div class="menu__body">
+                <div class="menu__body--title">
+                    <span>Menu of duchau's restaurant</span>
+                </div>
+
+                <ul class="menu__body--chooce">
+                    <div class="halfPart__left">
+                        <li class="menu__body--chooce1">
+                            <div class="menu__name">Rice Meals</div>
+                            <ul class="menu__list">
+                                <li class="menu__list--item" ><span>Veg Rice meal</span></li>
+                                <li class="menu__list--item" ><span>Chicken Rice Meal</span></li>
+                                <li class="menu__list--item" ><span>Veg Rock Box</span></li>
+                            </ul>
+                        </li>
+                        <li class="menu__body--chooce2">
+                            <div class="menu__name">Desserts</div>
+                            <ul class="menu__list">
+                                <li class="menu__list--item" ><span>Soft Serve</span></li>
+                                <li class="menu__list--item" ><span>Brownie Sundae</span></li>
+                                <li class="menu__list--item" ><span>Kreamball</span></li>
+                            </ul>
+                        </li>
+                    </div>
+
+                    <div class="halfPart__right">
+                        <li class="menu__body--chooce1">
+                            <div class="menu__name">Wow Starting</div>
+                            <ul class="menu__list">
+                                <li class="menu__list--item"><span>Potato Krisper</span></li>
+                                <li class="menu__list--item"><span>Corn Cupz</span></li>
+                                <li class="menu__list--item"><span>Kold Koffee</span></li>
+                            </ul>
+                        </li>
+                        <li class="menu__body--chooce2">
+                            <div class="menu__name">Share A Bucket</div>
+                            <ul class="menu__list">
+                                <li class="menu__list--item"><span>Hot & Crispy</span></li>
+                                <li class="menu__list--item"><span>Fiery Grilled</span></li>
+                                <li class="menu__list--item"><span>Smoky Frilled</span></li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./event.js"></script>
+</body>
+</html>
